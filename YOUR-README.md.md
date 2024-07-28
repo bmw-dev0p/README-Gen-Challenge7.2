@@ -1,20 +1,30 @@
-# 423
-  # "423" 
-  Created By: "432" 
+# "``` npm start ```" 
+  Created By: "Brad WEbster" 
   ## Description:
-  "234"
-  "234"
-  "234"
-  "234"
+  "o"
+  "o"
+  "o"
+  "i"
   ## Table of Contents:
-  * [Installation](##installation)
-  * [Usage](##usage)
-  * [Credits](##credits)
-  * [License](##license)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [License](#license)
   ## Installation: 
-  "234"
+  "i"
   ## Usage:
-  "234"
+  "i"
+  ## Features:
+  ### Coding Languages: 
+HTML, CSS, Javascript, Python, Java, C#, C++, Ruby, Other
+### Framework(s): 
+Bootstrap, Node.js, NPM, Libraries, API(s), None
+### Features: i
+  ## License / Badges:
+[![License](https://img.shields.io/badge/License-i-blue.svg)](https://opensource.org/licenses/i) 
+    
+This project is licensed under the i license. Click the badge for more information.
   ## Credits:
-  "234"
-  Coding Languages: CSS
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](i)
+"Brad WEbster"'s Github Portfolio
+  

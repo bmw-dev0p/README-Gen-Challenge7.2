@@ -51,23 +51,29 @@ const data = [ {
 },
 {
     type: 'input',
-    message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.',
+    message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running. (Hint: You can wrap code blocks in three backticks ` ` ` to format code.)',
     name: 'install',
 },
 {
     type: 'input',
-    message: 'Usage: Provide instructions and examples for use.',
+    message: 'Usage: Provide an example for use.',
     name: 'usage',
 },
 {
     type: 'input',
-    message: 'List your collaborators, if any, with links to their GitHub profiles. \nIf you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section. \nIf you followed tutorials, include links to those here as well.',
+    message: 'Provide a link to your Github portfolio, if you have one.',
     name: 'credits',
 },
 {
     type: 'input',
-    message: 'What is your github profile? (Please include the full URL)',
-    name: 'git',
+    message: 'If your project has a lot of features, list them here.',
+    name: 'features',
+},
+{
+    type: 'input',
+    message: 'Does your project have a license? This lets other developers know what they can and cannot do with your project. \nNote:Please type the exact SPDX ID of the license you would like to use. \nFor example, "General Public License version 3" is "GPL-3.0".\nPlese refer to the following link for more information: https://opensource.org/licenses',
+    name: 'license',
+    // choices: ['MIT', 'Apache', 'GPL', 'BSD', 'OpenSource', 'Other', 'None'],
 },
 ];
 
