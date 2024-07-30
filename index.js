@@ -1,9 +1,7 @@
 // TODO: Include packages needed for this application
 import inquirer from 'inquirer';
-// import DatePrompt from 'inquirer-date-prompt';
-// inquirer.registerPrompt('date', DatePrompt);
-// inquirer.registerPrompt('datetime', require('inquirer-datepicker-prompt'));
 import fs from 'fs';
+//be sure to import the generateMarkdown function from the utils folder.
 import generateMarkdown from './utils/generateMarkdown.js';
 
 // TODO: Create an array of questions for user input
@@ -47,7 +45,7 @@ const data = [ {
     type: 'checkbox',
     message: 'What framework(s) did you use?',
     name: 'frame',
-    choices: ['Bootstrap', 'Node.js', 'NPM', 'Libraries', 'API(s)', 'None'],
+    choices: ['Bootstrap', 'Node.js', 'NPM', 'React', 'API(s)', 'Other Libraries', 'None'],
 },
 {
     type: 'input',
@@ -66,7 +64,7 @@ const data = [ {
 },
 {
     type: 'input',
-    message: 'If your project has a lot of features, list them here.',
+    message: 'If your project has any additional features, list them here.',
     name: 'features',
 },
 {
@@ -79,11 +77,12 @@ const data = [ {
 
 
 // TODO: Create a function to write README file
+//function is passed "fileName"(string) and "data"(inquirer questions).
 function writeToFile(fileName, data) {
     inquirer.prompt(data)
-    .then(function(answers){ 
-    console.log(`Inquirer then activated`),
-    fs.writeFile(`${fileName}.md`, generateMarkdown(answers),
+    .then(function(answers){ //could also be wrote with =>, but this helped distinguish lines of code
+    console.log(`Inquirer then activated`), //sanity check
+    fs.writeFile(`./generatedContent/${fileName}.md`, generateMarkdown(answers), //writes to own folder to seperate from provided README
     (err) => err ? console.log(err) :console.log('file written!'))})
     .catch((error) => console.log(error));
 
