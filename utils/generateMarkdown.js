@@ -82,7 +82,7 @@ function generateMarkdown(data) {
   ## Usage:
   ${JSON.stringify(data.usage)}
   ## Features:
-  ### Coding Language(s): \n${renderCodeBadge(data.lang)}\n${(data.lang).join(', ')}\n### Framework(s): \n${renderFrameBadge(data.frame)}\n${(data.frame).join(', ')}\n### Other Features: \n${(data.features)}
+  ### Coding Language(s): \n${renderCodeBadge(data.lang)} \n${(data.lang).join(', ')} \n### Framework(s): \n${renderFrameBadge(data.frame)} \n${(data.frame).join(', ')} \n### Other Features: \n${(data.features)}
   ${renderLicenseSection(data.license)}
   ## Credits:\n${renderGitBadge(data.credits)}\n${JSON.stringify(data.author)}'s Github Portfolio
   `;

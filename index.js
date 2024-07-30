@@ -59,7 +59,7 @@ const data = [ {
 },
 {
     type: 'input',
-    message: 'Provide a link to your Github portfolio, if you have one.',
+    message: 'Provide a link to your Github Profile, if you have one.',
     name: 'credits',
 },
 {
