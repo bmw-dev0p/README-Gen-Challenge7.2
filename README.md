@@ -10,9 +10,10 @@
   ## Installation: 
   Step 1) Download and clone the repo, found here: <br/>https://github.com/bmw-dev0p/README-Gen-Challenge7.2
   <br/>Step 2) Open index.js in integrated terminal inside your IDE of choice.
-  <br/>Step 3) Type ``` node index.js ``` in the terminal window. 
-  <br/>Step 4) Simply answer the questions that are prompted for you. 
-  <br/>Step 5) See the magic !
+  <br/>Step 3) Type ``` npm install ``` in the terminal window.
+  <br/>Step 4) Type ``` node index.js ``` in the terminal window. 
+  <br/>Step 5) Simply answer the questions that are prompted for you. 
+  <br/>Step 6) See the magic !
   ## Usage:
   See attached video for video walkthrough
   ## Features:
