@@ -1,0 +1,20 @@
+Hello, my name is Brad Webster and I am student software developer
+Welcome to a video walkthrough of my Readme Generator 
+which is a Coding Project  made in part of the edX coding bootcamp 
+
+So, I created this README Gen to save many coders, like myself,
+time and energy from typing the same readme template over and over
+(for reference) README is a text file  that Each computer program comes with- 
+which is a standardized document that contains all the instructions and technical details of the program
+Now , you can type this out from a blank page. But to save time, I created this program that will generate a Completed README, start to finish , with all the bells and whistles.
+
+Today I will be walking through how to install, use, and operate this program
+
+open IDE of your choice, see that this program isnt in there
+step 1) navigate to github repo - clone
+	add folder to workspace - notice generatedContent folder
+step 2) npm install
+3) node index
+4) answer questions - bear with me these are long
+
+

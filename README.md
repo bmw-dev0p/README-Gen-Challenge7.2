@@ -1,5 +1,6 @@
 # "README Generator" 
-  Created By: "Brad Webster" <br/>Student Software Developer - University of Richmond
+  Created By: "Brad Webster" - in collaboration with edX coding bootcamp
+  <br/>Student Software Developer - University of Richmond
   ## Description:
   After becoming frustrated by creating the same README files over and over for different projects, I became motivated to try and find another way. I built this generator to save time and headaches. Since README files generally have the same structure and questions answered, I figured it would be helpful to create a generator that saves time and energy for anyone with coding projects. I learned mostly about node.js and packages, specifically npm and inquirer. I found it to be a very helpful tool.
   ## Table of Contents:
@@ -8,7 +9,9 @@
   * [License](#license)
   * [Credits](#credits)
   ## Installation: 
-  Step 1) Download and clone the repo, found here: <br/>https://github.com/bmw-dev0p/README-Gen-Challenge7.2
+  For a video guide of this project and how it works, you can watch the video found here:
+  <br/>https://vimeo.com/991866881
+  <br/>Step 1) Download and clone the repo, found here: <br/>https://github.com/bmw-dev0p/README-Gen-Challenge7.2
   <br/>Step 2) Open index.js in integrated terminal inside your IDE of choice.
   <br/>Step 3) Type ``` npm install ``` in the terminal window.
   <br/>Step 4) Type ``` node index.js ``` in the terminal window. 
